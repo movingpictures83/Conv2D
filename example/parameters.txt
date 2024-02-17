@@ -1,0 +1,5 @@
+inputfile	input.bin
+x	16
+y	32
+z	3
+stride	2

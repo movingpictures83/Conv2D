@@ -1,0 +1,2 @@
+Prefix plugins/Conv2D/example/
+Plugin Conv2D inputfile parameters.txt outputfile output.bin
