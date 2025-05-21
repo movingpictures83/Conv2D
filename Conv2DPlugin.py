@@ -15,6 +15,8 @@ class Conv2DPlugin:
        self.myOutput = m(myInput)
 
    def output(self, outputfile):
+       outf = open(outputfile+".txt", 'w')
+       outf.write(str(self.myOutput))
        torch.save(self.myOutput, outputfile)
        
 
